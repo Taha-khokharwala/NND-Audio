@@ -8,6 +8,7 @@ import Artists from './Artists';
 import Lyricists from './Lyricists';
 import Radio from './Radio';
 import RecentlyPlayed from "./RecentlyPlayed";
+import FooterMusic from "./FooterMusic";
 
 
 
@@ -25,6 +26,7 @@ const HomePage = () => {
       <Lyricists />
       <Radio />
       <RecentlyPlayed />
+      <FooterMusic />
     </>
   )
 }
